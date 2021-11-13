@@ -10,7 +10,7 @@ namespace MyFirstCalcGen
         {
             char b = '"';
             
-            string path = @"C:\Users\USER\Downloads\MyFirstCalc.txt";
+            string path = @"MyFirstCalc.txt";
             using (StreamWriter sw = File.CreateText(path))
             Console.WriteLine("Till How Much?");
             int amount = int.Parse(Console.ReadLine()) + 1;
